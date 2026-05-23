@@ -13,7 +13,7 @@
 
 ## 最新月度报告
 
-暂无已归档报告。将 Markdown 报告放入 `incoming/` 后运行：
+最新归档报告见下方报告目录。将 Markdown 报告放入 `incoming/` 后运行：
 
 ```bash
 python3 scripts/import_report.py --incoming incoming
@@ -29,7 +29,25 @@ python3 scripts/update_readme.py
 ## 报告目录
 
 <!-- REPORT_INDEX_START -->
-暂无报告。
+### 最新报告月份：2026-04
+
+[查看 GateRank 实时全量排行榜](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=monthly_2026_04)
+
+#### 最新月度报告列表
+
+- [大象网络机场测试报告](reports/2026-04/elphantroute.md)，评分 81.01，状态：稳定 ｜ [GateRank 动态报告](https://gate-rank.com/airports/elphantroute?utm_source=github&utm_medium=readme&utm_campaign=elphantroute)
+
+### 历史月度归档
+
+#### 2026-04
+
+- [大象网络](reports/2026-04/elphantroute.md)（评分 81.01，价格 ¥12）
+
+### 按机场索引
+
+- **大象网络**：[2026-04](reports/2026-04/elphantroute.md)
+
+_README 索引更新时间：2026-05-23 12:34:35 +0800_
 <!-- REPORT_INDEX_END -->
 
 ## 自动化说明

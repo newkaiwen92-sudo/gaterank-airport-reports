@@ -1,5 +1,18 @@
 {
   "site": "GateRank 机场测评报告库",
   "source": "https://gate-rank.com/",
-  "reports": []
+  "reports": [
+    {
+      "airport": "大象网络",
+      "slug": "elphantroute",
+      "month": "2026-04",
+      "title": "GateRank 大象网络 2026-04 月度表现报告",
+      "path": "reports/2026-04/elphantroute.md",
+      "gate_rank_url": "https://gate-rank.com/airports/elphantroute",
+      "score": "81.01",
+      "status": "稳定",
+      "price": "¥12",
+      "updated_at": "2026-05-23T04:34:34.982485+00:00"
+    }
+  ]
 }
