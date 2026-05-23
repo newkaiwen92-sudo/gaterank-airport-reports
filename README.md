@@ -47,7 +47,7 @@ python3 scripts/update_readme.py
 
 - **大象网络**：[2026-04](reports/2026-04/elphantroute.md)
 
-_README 索引更新时间：2026-05-23 12:34:35 +0800_
+_README 索引更新时间：2026-05-23 12:35:31 +0800_
 <!-- REPORT_INDEX_END -->
 
 ## 自动化说明
