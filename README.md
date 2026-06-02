@@ -72,7 +72,7 @@ python3 scripts/update_readme.py
 - **瞬云**：[2026-05](reports/2026-05/ccc-jichang.md)
 - **飞猫云**：[2026-05](reports/2026-05/flycat-flycatvipaff.md)
 
-_README 索引更新时间：2026-06-03 00:34:53 +0800_
+_README 索引更新时间：2026-06-03 00:35:23 +0800_
 <!-- REPORT_INDEX_END -->
 
 ## 自动化说明
