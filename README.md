@@ -29,15 +29,33 @@ python3 scripts/update_readme.py
 ## 报告目录
 
 <!-- REPORT_INDEX_START -->
-### 最新报告月份：2026-04
+### 最新报告月份：2026-05
 
-[查看 GateRank 实时全量排行榜](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=monthly_2026_04)
+[查看 GateRank 实时全量排行榜](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=monthly_2026_05)
 
 #### 最新月度报告列表
 
-- [大象网络机场测试报告](reports/2026-04/elphantroute.md)，评分 81.01，状态：稳定 ｜ [GateRank 动态报告](https://gate-rank.com/airports/elphantroute?utm_source=github&utm_medium=readme&utm_campaign=elphantroute)
+- [大象网络机场测试报告](reports/2026-05/elphantroute.md)，评分 83.31，状态：正常观测 ｜ [GateRank 动态报告](https://gate-rank.com/airports/elphantroute?utm_source=github&utm_medium=readme&utm_campaign=elphantroute)
+- [Now加速机场测试报告](reports/2026-05/nowjiasu.md)，评分 82.85，状态：正常观测 ｜ [GateRank 动态报告](https://gate-rank.com/airports/nowjiasu?utm_source=github&utm_medium=readme&utm_campaign=nowjiasu)
+- [瞬云机场测试报告](reports/2026-05/ccc-jichang.md)，评分 82.82，状态：正常观测 ｜ [GateRank 动态报告](https://gate-rank.com/airports/ccc-jichang?utm_source=github&utm_medium=readme&utm_campaign=ccc-jichang)
+- [山水云机场测试报告](reports/2026-05/shanshuiyun.md)，评分 80.54，状态：正常观测 ｜ [GateRank 动态报告](https://gate-rank.com/airports/shanshuiyun?utm_source=github&utm_medium=readme&utm_campaign=shanshuiyun)
+- [仙路湾机场测试报告](reports/2026-05/xlw.md)，评分 80.24，状态：正常观测 ｜ [GateRank 动态报告](https://gate-rank.com/airports/xlw?utm_source=github&utm_medium=readme&utm_campaign=xlw)
+- [光速云机场测试报告](reports/2026-05/qwerty-gsyaff.md)，评分 79.29，状态：正常观测 ｜ [GateRank 动态报告](https://gate-rank.com/airports/qwerty-gsyaff?utm_source=github&utm_medium=readme&utm_campaign=qwerty-gsyaff)
+- [飞猫云机场测试报告](reports/2026-05/flycat-flycatvipaff.md)，评分 70.60，状态：正常观测 ｜ [GateRank 动态报告](https://gate-rank.com/airports/flycat-flycatvipaff?utm_source=github&utm_medium=readme&utm_campaign=flycat-flycatvipaff)
+- [极速云机场机场测试报告](reports/2026-05/jsysubtoken.md)，评分 70.48，状态：正常观测 ｜ [GateRank 动态报告](https://gate-rank.com/airports/jsysubtoken?utm_source=github&utm_medium=readme&utm_campaign=jsysubtoken)
 
 ### 历史月度归档
+
+#### 2026-05
+
+- [Now加速](reports/2026-05/nowjiasu.md)（评分 82.85，价格 ¥10）
+- [仙路湾](reports/2026-05/xlw.md)（评分 80.24，价格 ¥9.90）
+- [光速云](reports/2026-05/qwerty-gsyaff.md)（评分 79.29，价格 ¥17）
+- [大象网络](reports/2026-05/elphantroute.md)（评分 83.31，价格 ¥12）
+- [山水云](reports/2026-05/shanshuiyun.md)（评分 80.54，价格 ¥14.99）
+- [极速云机场](reports/2026-05/jsysubtoken.md)（评分 70.48，价格 ¥15.99）
+- [瞬云](reports/2026-05/ccc-jichang.md)（评分 82.82，价格 ¥20）
+- [飞猫云](reports/2026-05/flycat-flycatvipaff.md)（评分 70.60，价格 ¥15）
 
 #### 2026-04
 
@@ -45,9 +63,16 @@ python3 scripts/update_readme.py
 
 ### 按机场索引
 
-- **大象网络**：[2026-04](reports/2026-04/elphantroute.md)
+- **Now加速**：[2026-05](reports/2026-05/nowjiasu.md)
+- **仙路湾**：[2026-05](reports/2026-05/xlw.md)
+- **光速云**：[2026-05](reports/2026-05/qwerty-gsyaff.md)
+- **大象网络**：[2026-05](reports/2026-05/elphantroute.md)、[2026-04](reports/2026-04/elphantroute.md)
+- **山水云**：[2026-05](reports/2026-05/shanshuiyun.md)
+- **极速云机场**：[2026-05](reports/2026-05/jsysubtoken.md)
+- **瞬云**：[2026-05](reports/2026-05/ccc-jichang.md)
+- **飞猫云**：[2026-05](reports/2026-05/flycat-flycatvipaff.md)
 
-_README 索引更新时间：2026-05-23 12:35:31 +0800_
+_README 索引更新时间：2026-06-03 00:34:53 +0800_
 <!-- REPORT_INDEX_END -->
 
 ## 自动化说明
