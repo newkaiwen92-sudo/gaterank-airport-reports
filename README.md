@@ -2,9 +2,9 @@
 
 [![访问统计](https://hits.sh/github.com/newkaiwen92-sudo/gaterank-airport-reports.svg?label=views&color=0e75b6)](https://hits.sh/github.com/newkaiwen92-sudo/gaterank-airport-reports/)
 
-本仓库用于归档 GateRank 每月机场测试报告，覆盖机场推荐、机场排行榜、机场测评、机场测速、稳定机场、便宜机场、Clash 机场、Shadowrocket 机场、USDT 支付机场与跑路风险监测等公开信息。
+本仓库用于归档 GateRank 每月机场测试报告，面向 **机场推荐、2026机场推荐、稳定机场推荐、便宜机场推荐、Clash机场推荐、Shadowrocket机场推荐、USDT买机场、跑路机场、Netflix机场推荐** 等搜索场景，提供可追溯的月度机场测评、机场测速、价格、稳定性与风险监测记录。
 
-> 本仓库是 GitHub Markdown 归档入口；实时评分、最新榜单、风险状态和完整动态数据请以 GateRank 主站为准。
+> 本仓库是 GateRank 机场推荐与机场测评的 GitHub Markdown 归档入口；实时评分、最新榜单、风险状态和完整动态数据请以 GateRank 主站为准。
 
 ## GateRank 主站入口
 
@@ -15,18 +15,18 @@
 
 ## 最新月度报告
 
-最新归档报告见下方报告目录。将 Markdown 报告放入 `incoming/` 后运行：
+最新归档报告见下方报告目录，按月份、机场名称和 GateRank 评分整理，适合用于对比机场推荐、稳定机场推荐、便宜机场推荐与风险机场记录。
 
-```bash
-python3 scripts/import_report.py --incoming incoming
-python3 scripts/update_readme.py
-```
+## 热门机场推荐专题
 
-脚本会自动生成：
-
-- `reports/YYYY-MM/<slug>.md`
-- `data/reports-index.json`
-- README 月度报告索引
+- [机场推荐 / 2026机场推荐](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=seo_keywords)：查看 GateRank 最新机场排行榜与月度机场测评归档。
+- [稳定机场推荐](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=stable_airport)：优先参考 30 天可用率、连续健康天数、延迟与丢包表现。
+- [便宜机场推荐](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=cheap_airport)：对比最低月付、年付折算、试用和一次性套餐。
+- [Clash机场推荐](https://gate-rank.com/news?utm_source=github&utm_medium=readme&utm_campaign=clash_airport)：关注 Clash、Clash Verge、OpenClash 等客户端导入体验。
+- [Shadowrocket机场推荐](https://gate-rank.com/news?utm_source=github&utm_medium=readme&utm_campaign=shadowrocket_airport)：关注小火箭订阅、二维码导入和 iOS 使用体验。
+- [USDT买机场](https://gate-rank.com/news?utm_source=github&utm_medium=readme&utm_campaign=usdt_airport)：筛选支持 USDT-TRC20 等加密货币支付的机场服务。
+- [跑路机场 / 风险机场](https://gate-rank.com/risk-monitor?utm_source=github&utm_medium=readme&utm_campaign=risk_airport)：跟踪官网异常、SSL 告警、投诉和历史异常记录。
+- [Netflix机场推荐](https://gate-rank.com/news?utm_source=github&utm_medium=readme&utm_campaign=netflix_airport)：关注 Netflix、Disney+、HBO Max、YouTube Premium 等流媒体解锁能力。
 
 ## 报告目录
 
@@ -108,17 +108,6 @@ python3 scripts/update_readme.py
 
 _README 索引更新时间：2026-07-02 16:41:59 +0800_
 <!-- REPORT_INDEX_END -->
-
-## 自动化说明
-
-推荐流程：
-
-1. 将 GateRank 原始机场测试报告 Markdown 放入 `incoming/`。
-2. 运行 `python3 scripts/import_report.py --incoming incoming` 标准化归档。
-3. 运行 `python3 scripts/update_readme.py` 更新 README 索引。
-4. 提交并推送到 GitHub。
-
-也可以使用 GitHub Actions 的 `Update README report index` 工作流自动执行。
 
 ## 免责声明
 
