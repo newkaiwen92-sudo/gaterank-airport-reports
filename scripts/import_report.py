@@ -21,7 +21,7 @@ INDEX_PATH = ROOT / "data" / "reports-index.json"
 
 
 def slugify(text: str) -> str:
-    text = unicodedata.normalize("NFKC", text).strip().lower()
+    original = unicodedata.normalize("NFKC", text).strip()
     replacements = {
         "大象网络": "elphantroute",
         "隐云": "x-wkacc",
@@ -31,9 +31,21 @@ def slugify(text: str) -> str:
         "电影云": "user-moviecloud",
         "飞猫云": "flycat-flycatvipaff",
         "瞬云": "ccc-jichang",
+        "极速云机场": "sub-jsysubtoken",
+        "Now加速": "nowjiasu",
+        "仙路湾": "xianluwan",
+        "山水云": "shanshuiyun",
+        "可达加速器": "1-mkd997",
+        "宇宙云": "01-yuzoucloud",
+        "秒秒云": "dl2-mmy8",
+        "锦云": "w2-whengdl",
+        "寰宇云机场": "dashboard-huanyuyunvip",
+        "稳连云": "wl1-yuildavvjh",
+        "Nice加速机场": "nicejiasu-2",
     }
-    if text in replacements:
-        return replacements[text]
+    if original in replacements:
+        return replacements[original]
+    text = original.lower()
     asciiish = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
     if asciiish:
         return asciiish[:80]
@@ -58,11 +70,17 @@ def detect_airport_name(text: str, source_name: str) -> str:
     name = first_match([
         r"机场名称[：:]\s*([^\n|]+)",
         r"名称[：:]\s*([^\n|]+)",
-        r"^#\s*([^#\n]+?)(?:机场)?(?:测试|测评|报告|事实卡|\s|：|:)",
+        # New monthly export format: "# GateRank 大象网络 2026-06 月度表现报告"
+        r"^#\s*GateRank\s+(.+?)\s+20\d{2}[-年/]\d{1,2}\s*(?:月度)?(?:表现)?报告",
+        r"^#\s*([^#\n]+?)(?:机场)?(?:测试|测评|报告|事实卡|：|:)",
     ], text)
     if name:
         return re.sub(r"\s*(机场)?(测试报告|测评报告|事实卡|报告).*$", "", name).strip(" ：:") or name
-    return Path(source_name).stem.replace("测试报告", "").replace("测评报告", "").strip() or "unknown-airport"
+    stem = Path(source_name).stem
+    m = re.match(r"GateRank-(.+?)-20\d{2}-\d{2}-monthly-report", stem)
+    if m:
+        return m.group(1).strip()
+    return stem.replace("测试报告", "").replace("测评报告", "").strip() or "unknown-airport"
 
 
 def detect_month(text: str, path: Path) -> str:
@@ -85,13 +103,25 @@ def detect_month(text: str, path: Path) -> str:
 
 def extract_fields(text: str) -> dict:
     return {
-        "score": first_match([r"(?:GateRank\s*)?(?:公开)?评分[：:]\s*([0-9.]+)", r"最终分[：:]\s*([0-9.]+)", r"综合评分[：:]\s*([0-9.]+)"], text),
+        "score": first_match([
+            r"(?:GateRank\s*)?(?:公开)?评分[：:]\s*([0-9.]+)",
+            r"最终分[：:]\s*([0-9.]+)",
+            r"综合评分[：:]\s*([0-9.]+)",
+            r"综合分为\s*\*\*([0-9.]+)\*\*",
+            r"\|\s*综合分\s*\|\s*([0-9.]+)\s*\|",
+        ], text),
         "status": first_match([r"当前状态[：:]\s*([^\n]+)", r"状态[：:]\s*([^\n]+)"], text),
-        "price": first_match([r"月付价格[：:]\s*([^\n]+)", r"月付[：:]\s*([^\n]+)", r"价格[：:]\s*([^\n]+)"], text),
-        "availability": first_match([r"30\s*天可用率[：:]\s*([^\n]+)", r"可用率[：:]\s*([^\n]+)"], text),
-        "latency": first_match([r"中位延迟[：:]\s*([^\n]+)", r"延迟[：:]\s*([^\n]+)"], text),
-        "speed": first_match([r"下载速率[：:]\s*([^\n]+)", r"速度[：:]\s*([^\n]+)"], text),
-        "risk": first_match([r"风险(?:提示|摘要|标签)?[：:]\s*([^\n]+)", r"风险惩罚[：:]\s*([^\n]+)"], text),
+        "price": first_match([
+            r"月付价格[：:]\s*([^\n]+)",
+            r"月付套餐\s*\|\s*[^\n]*?最低月付\s*([^\n|]+)",
+            r"最低月付\s*(¥?[0-9.]+)",
+            r"月付[：:]\s*([^\n]+)",
+            r"价格[：:]\s*([^\n]+)",
+        ], text),
+        "availability": first_match([r"30\s*天可用率[：:]\s*([^\n]+)", r"30\s*天可用率\s*\|\s*([^\n|]+)", r"可用率为\s*\*\*([^*]+)\*\*", r"可用率[：:]\s*([^\n]+)"], text),
+        "latency": first_match([r"中位延迟[：:]\s*([^\n]+)", r"延迟中位数\s*\|\s*([^\n|]+)", r"延迟中位数为\s*\*\*([^*]+)\*\*", r"延迟[：:]\s*([^\n]+)"], text),
+        "speed": first_match([r"下载速率[：:]\s*([^\n]+)", r"下载速度中位数\s*\|\s*([^\n|]+)", r"下载速度中位数为\s*\*\*([^*]+)\*\*", r"速度[：:]\s*([^\n]+)"], text),
+        "risk": first_match([r"风险(?:提示|摘要|标签)?[：:]\s*([^\n]+)", r"风险罚分为\s*\*\*?([^*，。]+)\*\*?", r"风险惩罚[：:]\s*([^\n]+)"], text),
     }
 
 

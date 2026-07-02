@@ -26,6 +26,10 @@ def campaign_for(month: str) -> str:
     return "monthly_" + month.replace("-", "_")
 
 
+def report_link_label(airport: str) -> str:
+    return f"{airport}测试报告" if airport.endswith("机场") else f"{airport}机场测试报告"
+
+
 def build_index(reports: list[dict]) -> str:
     if not reports:
         return "暂无报告。"
@@ -46,7 +50,8 @@ def build_index(reports: list[dict]) -> str:
     for r in latest:
         score = f"，评分 {r['score']}" if r.get("score") else ""
         status = f"，状态：{r['status']}" if r.get("status") else ""
-        lines.append(f"- [{r.get('airport', r.get('slug'))}机场测试报告]({r['path']}){score}{status} ｜ [GateRank 动态报告]({r['gate_rank_url']}?utm_source=github&utm_medium=readme&utm_campaign={quote(r.get('slug','report'))})")
+        airport = r.get('airport', r.get('slug'))
+        lines.append(f"- [{report_link_label(airport)}]({r['path']}){score}{status} ｜ [GateRank 动态报告]({r['gate_rank_url']}?utm_source=github&utm_medium=readme&utm_campaign={quote(r.get('slug','report'))})")
 
     lines.append("")
     lines.append("### 历史月度归档")
