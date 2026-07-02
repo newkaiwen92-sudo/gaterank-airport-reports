@@ -104,7 +104,7 @@ python3 scripts/update_readme.py
 - **锦云**：[2026-06](reports/2026-06/w2-whengdl.md)
 - **飞猫云**：[2026-06](reports/2026-06/flycat-flycatvipaff.md)、[2026-05](reports/2026-05/flycat-flycatvipaff.md)
 
-_README 索引更新时间：2026-07-02 16:41:19 +0800_
+_README 索引更新时间：2026-07-02 16:41:59 +0800_
 <!-- REPORT_INDEX_END -->
 
 ## 自动化说明
