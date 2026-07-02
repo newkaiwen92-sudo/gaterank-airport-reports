@@ -1,5 +1,7 @@
 # GateRank 机场测评报告库：机场推荐、机场排行榜、机场测速与风险监测
 
+[![访问统计](https://hits.sh/github.com/newkaiwen92-sudo/gaterank-airport-reports.svg?label=views&color=0e75b6)](https://hits.sh/github.com/newkaiwen92-sudo/gaterank-airport-reports/)
+
 本仓库用于归档 GateRank 每月机场测试报告，覆盖机场推荐、机场排行榜、机场测评、机场测速、稳定机场、便宜机场、Clash 机场、Shadowrocket 机场、USDT 支付机场与跑路风险监测等公开信息。
 
 > 本仓库是 GitHub Markdown 归档入口；实时评分、最新榜单、风险状态和完整动态数据请以 GateRank 主站为准。
