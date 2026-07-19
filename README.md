@@ -1,32 +1,47 @@
-# GateRank 机场测评报告库：机场推荐、机场排行榜、机场测速与风险监测
+# GateRank 机场推荐与机场 VPN 月度报告库
 
 [![访问统计](https://hits.sh/github.com/newkaiwen92-sudo/gaterank-airport-reports.svg?label=views&color=0e75b6)](https://hits.sh/github.com/newkaiwen92-sudo/gaterank-airport-reports/)
 
-本仓库用于归档 GateRank 每月机场测试报告，面向 **机场推荐、2026机场推荐、稳定机场推荐、便宜机场推荐、Clash机场推荐、Shadowrocket机场推荐、USDT买机场、跑路机场、Netflix机场推荐** 等搜索场景，提供可追溯的月度机场测评、机场测速、价格、稳定性与风险监测记录。
+本仓库是 **GateRank（机场榜）** 的公开 Markdown 报告归档，用于沉淀每月机场 VPN 测评、机场排行榜、机场测速、价格、稳定性、客户端支持与跑路风险记录。内容面向 **2026机场推荐、机场推荐、稳定机场推荐、便宜机场推荐、Clash机场推荐、Shadowrocket机场推荐、USDT买机场、Netflix机场推荐、跑路机场监测** 等搜索场景。
 
-> 本仓库是 GateRank 机场推荐与机场测评的 GitHub Markdown 归档入口；实时评分、最新榜单、风险状态和完整动态数据请以 GateRank 主站为准。
+> 本仓库负责长期归档和 GitHub 可索引入口；**实时评分、最新榜单、优惠活动、风险状态和完整动态数据请以 GateRank 主站为准。**
 
-## GateRank 主站入口
+## GateRank 官方入口
 
-- [机场排行榜](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=reports_repo)
-- [跑路风险监测](https://gate-rank.com/risk-monitor?utm_source=github&utm_medium=readme&utm_campaign=reports_repo)
-- [机场测评方法](https://gate-rank.com/methodology?utm_source=github&utm_medium=readme&utm_campaign=reports_repo)
-- [机场资讯中心](https://gate-rank.com/news?utm_source=github&utm_medium=readme&utm_campaign=reports_repo)
+- [GateRank 机场榜首页](https://gate-rank.com/?utm_source=github&utm_medium=readme&utm_campaign=reports_repo_home)：机场 VPN 推荐、科学上网机场测评与可靠性榜单。
+- [2026机场推荐 / 全量机场排行榜](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=reports_repo_rankings)：按 GateRank Score、价格、状态、客户端、线路和支付方式筛选机场。
+- [机场月度报告中心](https://gate-rank.com/monthly-reports?utm_source=github&utm_medium=readme&utm_campaign=reports_repo_monthly)：按月份查看行业报告、机场排行榜变化与风险观察。
+- [机场优惠码与活动折扣](https://gate-rank.com/deals?utm_source=github&utm_medium=readme&utm_campaign=reports_repo_deals)：查看机场优惠码、免费试用、新用户优惠与 USDT 支付优惠。
+- [跑路风险监测](https://gate-rank.com/risk-monitor?utm_source=github&utm_medium=readme&utm_campaign=reports_repo_risk)：跟踪官网异常、SSL 告警、历史异常与风险提示。
+- [翻墙工具下载](https://gate-rank.com/download?utm_source=github&utm_medium=readme&utm_campaign=reports_repo_tools)：Windows、macOS、Android、Linux 科学上网客户端与机场订阅工具。
+- [GateRank for AI / 机器可读数据](https://gate-rank.com/for-ai?utm_source=github&utm_medium=readme&utm_campaign=reports_repo_ai)：JSON、Markdown、llms.txt 与 AI 引用说明。
+- [机场测评方法](https://gate-rank.com/methodology?utm_source=github&utm_medium=readme&utm_campaign=reports_repo_methodology)：了解 GateRank Score、测速口径与风险扣分逻辑。
+- [机场资讯中心](https://gate-rank.com/news?utm_source=github&utm_medium=readme&utm_campaign=reports_repo_news)：机场推荐、客户端教程、跑路预警、支付安全与行业观察。
 
-## 最新月度报告
+## 这个报告库适合用来做什么？
 
-最新归档报告见下方报告目录，按月份、机场名称和 GateRank 评分整理，适合用于对比机场推荐、稳定机场推荐、便宜机场推荐与风险机场记录。
+- **查历史月报**：按月份回看某个机场的评分、价格、状态、测速与风险变化。
+- **辅助选择机场**：结合 GateRank 主站实时榜单，判断稳定机场、便宜机场、Clash/Shadowrocket 机场、USDT 支付机场和流媒体解锁机场。
+- **核对数据来源**：每份 Markdown 报告保留可追溯的月度快照，便于搜索引擎、AI 助手和用户引用。
+- **建立品牌实体**：本仓库与 `gate-rank.com`、Google Sites 说明页、主站月报中心共同构成 GateRank 的公开资料矩阵。
 
 ## 热门机场推荐专题
 
-- [机场推荐 / 2026机场推荐](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=seo_keywords)：查看 GateRank 最新机场排行榜与月度机场测评归档。
-- [稳定机场推荐](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=stable_airport)：优先参考 30 天可用率、连续健康天数、延迟与丢包表现。
-- [便宜机场推荐](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=cheap_airport)：对比最低月付、年付折算、试用和一次性套餐。
-- [Clash机场推荐](https://gate-rank.com/news?utm_source=github&utm_medium=readme&utm_campaign=clash_airport)：关注 Clash、Clash Verge、OpenClash 等客户端导入体验。
-- [Shadowrocket机场推荐](https://gate-rank.com/news?utm_source=github&utm_medium=readme&utm_campaign=shadowrocket_airport)：关注小火箭订阅、二维码导入和 iOS 使用体验。
-- [USDT买机场](https://gate-rank.com/news?utm_source=github&utm_medium=readme&utm_campaign=usdt_airport)：筛选支持 USDT-TRC20 等加密货币支付的机场服务。
+- [机场推荐 / 2026机场推荐](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=seo_keywords)：查看 GateRank 最新机场排行榜、公开评分、价格、风险和月度机场测评归档。
+- [稳定机场推荐](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=stable_airport)：优先参考 30 天可用率、连续健康天数、延迟、丢包和历史风险记录。
+- [便宜机场推荐](https://gate-rank.com/deals?utm_source=github&utm_medium=readme&utm_campaign=cheap_airport)：对比最低月付、优惠码、免费试用、新用户折扣和一次性套餐。
+- [Clash机场推荐](https://gate-rank.com/news/topic/clash-subscription?utm_source=github&utm_medium=readme&utm_campaign=clash_airport)：关注 Clash、Clash Verge、OpenClash、Mihomo 等客户端导入体验。
+- [Shadowrocket机场推荐](https://gate-rank.com/rankings/all?client=shadowrocket&utm_source=github&utm_medium=readme&utm_campaign=shadowrocket_airport)：关注小火箭订阅、二维码导入和 iOS 使用体验。
+- [USDT买机场](https://gate-rank.com/news/topic/usdt-airport-payment?utm_source=github&utm_medium=readme&utm_campaign=usdt_airport)：筛选支持 USDT-TRC20 等加密货币支付的机场服务。
 - [跑路机场 / 风险机场](https://gate-rank.com/risk-monitor?utm_source=github&utm_medium=readme&utm_campaign=risk_airport)：跟踪官网异常、SSL 告警、投诉和历史异常记录。
-- [Netflix机场推荐](https://gate-rank.com/news?utm_source=github&utm_medium=readme&utm_campaign=netflix_airport)：关注 Netflix、Disney+、HBO Max、YouTube Premium 等流媒体解锁能力。
+- [Netflix机场推荐](https://gate-rank.com/rankings/all?streaming=netflix&utm_source=github&utm_medium=readme&utm_campaign=netflix_airport)：关注 Netflix、Disney+、HBO Max、YouTube Premium 等流媒体解锁能力。
+
+## 数据与报告文件
+
+- `reports/YYYY-MM/<slug>.md`：单机场月度报告正文。
+- `data/reports-index.json`：报告索引的机器可读数据。
+- `scripts/import_report.py`：把 `incoming/` 原始报告归档到标准目录。
+- `scripts/update_readme.py`：根据 JSON 索引自动更新下方报告目录。
 
 ## 报告目录
 
@@ -106,7 +121,7 @@
 - **锦云**：[2026-06](reports/2026-06/w2-whengdl.md)
 - **飞猫云**：[2026-06](reports/2026-06/flycat-flycatvipaff.md)、[2026-05](reports/2026-05/flycat-flycatvipaff.md)
 
-_README 索引更新时间：2026-07-02 16:41:59 +0800_
+_README 索引更新时间：2026-07-20 01:58:39 +0800_
 <!-- REPORT_INDEX_END -->
 
 ## 免责声明
