@@ -143,7 +143,7 @@
 - **锦云**：[2026-07](reports/2026-07/w2-whengdl.md)、[2026-06](reports/2026-06/w2-whengdl.md)
 - **飞猫云**：[2026-06](reports/2026-06/flycat-flycatvipaff.md)、[2026-05](reports/2026-05/flycat-flycatvipaff.md)
 
-_README 索引更新时间：2026-08-11 17:36:41 +0800_
+_README 索引更新时间：2026-08-11 17:37:31 +0800_
 <!-- REPORT_INDEX_END -->
 
 ## 免责声明
