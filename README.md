@@ -165,7 +165,7 @@
 - **飞猫云**：[2026-06](reports/2026-06/flycat-flycatvipaff.md)、[2026-05](reports/2026-05/flycat-flycatvipaff.md)
 - **鲤云**：[2026-08](reports/2026-08/ly888-liydl.md)
 
-_README 索引更新时间：2026-09-02 07:09:04 +0800_
+_README 索引更新时间：2026-09-02 07:09:36 +0800_
 <!-- REPORT_INDEX_END -->
 
 ## 免责声明
