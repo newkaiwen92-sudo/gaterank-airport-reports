@@ -46,25 +46,57 @@
 ## 报告目录
 
 <!-- REPORT_INDEX_START -->
-### 最新报告月份：2026-09
+### 最新报告月份：2026-10
 
-[查看 GateRank 实时全量排行榜](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=monthly_2026_09)
+[查看 GateRank 实时全量排行榜](https://gate-rank.com/rankings/all?utm_source=github&utm_medium=readme&utm_campaign=monthly_2026_10)
 
 #### 最新月度报告列表
 
-- [Now加速·家宽机场测试报告](reports/2026-09/nowjiasu.md)，评分 93.33 ｜ [GateRank 动态报告](https://gate-rank.com/airports/nowjiasu?utm_source=github&utm_medium=readme&utm_campaign=nowjiasu)
-- [大象网络机场测试报告](reports/2026-09/elphantroute.md)，评分 93.02 ｜ [GateRank 动态报告](https://gate-rank.com/airports/elphantroute?utm_source=github&utm_medium=readme&utm_campaign=elphantroute)
-- [耶耶云机场测试报告](reports/2026-09/check-yeyeyun.md)，评分 91.93 ｜ [GateRank 动态报告](https://gate-rank.com/airports/check-yeyeyun?utm_source=github&utm_medium=readme&utm_campaign=check-yeyeyun)
-- [云图机场测试报告](reports/2026-09/ccc-jichang.md)，评分 91.87 ｜ [GateRank 动态报告](https://gate-rank.com/airports/ccc-jichang?utm_source=github&utm_medium=readme&utm_campaign=ccc-jichang)
-- [仙路湾机场测试报告](reports/2026-09/xianluwan.md)，评分 91.19 ｜ [GateRank 动态报告](https://gate-rank.com/airports/xianluwan?utm_source=github&utm_medium=readme&utm_campaign=xianluwan)
-- [山水云机场测试报告](reports/2026-09/shanshuiyun.md)，评分 85.13 ｜ [GateRank 动态报告](https://gate-rank.com/airports/shanshuiyun?utm_source=github&utm_medium=readme&utm_campaign=shanshuiyun)
-- [枫叶Maplerelay机场测试报告](reports/2026-09/maplerelay.md)，评分 83.76 ｜ [GateRank 动态报告](https://gate-rank.com/airports/maplerelay?utm_source=github&utm_medium=readme&utm_campaign=maplerelay)
-- [极速云机场测试报告](reports/2026-09/sub-jsysubtoken.md)，评分 81.22 ｜ [GateRank 动态报告](https://gate-rank.com/airports/sub-jsysubtoken?utm_source=github&utm_medium=readme&utm_campaign=sub-jsysubtoken)
-- [九云机场测试报告](reports/2026-09/888-jiuyundl.md)，评分 79.54 ｜ [GateRank 动态报告](https://gate-rank.com/airports/888-jiuyundl?utm_source=github&utm_medium=readme&utm_campaign=888-jiuyundl)
-- [飞鱼机场测试报告](reports/2026-09/qq-myyuyu.md) ｜ [GateRank 动态报告](https://gate-rank.com/airports/qq-myyuyu?utm_source=github&utm_medium=readme&utm_campaign=qq-myyuyu)
-- [Andy Cloud机场测试报告](reports/2026-09/andygw.md) ｜ [GateRank 动态报告](https://gate-rank.com/airports/andygw?utm_source=github&utm_medium=readme&utm_campaign=andygw)
+- [大象网络机场测试报告](reports/2026-10/elphantroute.md)，评分 92.26 ｜ [GateRank 动态报告](https://gate-rank.com/airports/elphantroute?utm_source=github&utm_medium=readme&utm_campaign=elphantroute)
+- [Now加速·家宽机场测试报告](reports/2026-10/nowjiasu.md)，评分 92.24 ｜ [GateRank 动态报告](https://gate-rank.com/airports/nowjiasu?utm_source=github&utm_medium=readme&utm_campaign=nowjiasu)
+- [耶耶云-香港电讯旗下机场测试报告](reports/2026-10/check-yeyeyun.md)，评分 91.33 ｜ [GateRank 动态报告](https://gate-rank.com/airports/check-yeyeyun?utm_source=github&utm_medium=readme&utm_campaign=check-yeyeyun)
+- [极速Cloud机场测试报告](reports/2026-10/bktg-jsjc456789.md)，评分 89.94 ｜ [GateRank 动态报告](https://gate-rank.com/airports/bktg-jsjc456789?utm_source=github&utm_medium=readme&utm_campaign=bktg-jsjc456789)
+- [仙路湾机场测试报告](reports/2026-10/xianluwan.md)，评分 88.77 ｜ [GateRank 动态报告](https://gate-rank.com/airports/xianluwan?utm_source=github&utm_medium=readme&utm_campaign=xianluwan)
+- [鲤云机场测试报告](reports/2026-10/ly888-liydl.md)，评分 87.81 ｜ [GateRank 动态报告](https://gate-rank.com/airports/ly888-liydl?utm_source=github&utm_medium=readme&utm_campaign=ly888-liydl)
+- [秒秒云机场测试报告](reports/2026-10/dl2-mmy8.md)，评分 87.48 ｜ [GateRank 动态报告](https://gate-rank.com/airports/dl2-mmy8?utm_source=github&utm_medium=readme&utm_campaign=dl2-mmy8)
+- [熊猫cloud机场测试报告](reports/2026-10/cl888-cailudl.md)，评分 87.18 ｜ [GateRank 动态报告](https://gate-rank.com/airports/cl888-cailudl?utm_source=github&utm_medium=readme&utm_campaign=cl888-cailudl)
+- [Here云-稳定专线家宽机场测试报告](reports/2026-10/web-hereyun.md)，评分 86.78 ｜ [GateRank 动态报告](https://gate-rank.com/airports/web-hereyun?utm_source=github&utm_medium=readme&utm_campaign=web-hereyun)
+- [云图机场测试报告](reports/2026-10/ccc-jichang.md)，评分 85.70 ｜ [GateRank 动态报告](https://gate-rank.com/airports/ccc-jichang?utm_source=github&utm_medium=readme&utm_campaign=ccc-jichang)
+- [枫叶Maplerelay机场测试报告](reports/2026-10/maplerelay.md)，评分 84.95 ｜ [GateRank 动态报告](https://gate-rank.com/airports/maplerelay?utm_source=github&utm_medium=readme&utm_campaign=maplerelay)
+- [九云机场测试报告](reports/2026-10/888-jiuyundl.md)，评分 83.91 ｜ [GateRank 动态报告](https://gate-rank.com/airports/888-jiuyundl?utm_source=github&utm_medium=readme&utm_campaign=888-jiuyundl)
+- [Andy Cloud机场测试报告](reports/2026-10/andygw.md)，评分 82.59 ｜ [GateRank 动态报告](https://gate-rank.com/airports/andygw?utm_source=github&utm_medium=readme&utm_campaign=andygw)
+- [一号cloud机场测试报告](reports/2026-10/y1-yihaodlu.md)，评分 81.53 ｜ [GateRank 动态报告](https://gate-rank.com/airports/y1-yihaodlu?utm_source=github&utm_medium=readme&utm_campaign=y1-yihaodlu)
+- [锦云机场测试报告](reports/2026-10/w2-whengdl.md)，评分 80.53 ｜ [GateRank 动态报告](https://gate-rank.com/airports/w2-whengdl?utm_source=github&utm_medium=readme&utm_campaign=w2-whengdl)
+- [轻语机场测试报告](reports/2026-10/qingyudaohang.md)，评分 78.73 ｜ [GateRank 动态报告](https://gate-rank.com/airports/qingyudaohang?utm_source=github&utm_medium=readme&utm_campaign=qingyudaohang)
+- [山水云机场测试报告](reports/2026-10/shanshuiyun.md)，评分 77.12 ｜ [GateRank 动态报告](https://gate-rank.com/airports/shanshuiyun?utm_source=github&utm_medium=readme&utm_campaign=shanshuiyun)
+- [CyberGuard机场测试报告](reports/2026-10/cyberguard.md)，评分 74.23 ｜ [GateRank 动态报告](https://gate-rank.com/airports/cyberguard?utm_source=github&utm_medium=readme&utm_campaign=cyberguard)
+- [AVEE VPN机场测试报告](reports/2026-10/aveevpn.md)，评分 9.59 ｜ [GateRank 动态报告](https://gate-rank.com/airports/aveevpn?utm_source=github&utm_medium=readme&utm_campaign=aveevpn)
+- [杏花云机场测试报告](reports/2026-10/wl1-yuildavvjh.md) ｜ [GateRank 动态报告](https://gate-rank.com/airports/wl1-yuildavvjh?utm_source=github&utm_medium=readme&utm_campaign=wl1-yuildavvjh)
 
 ### 历史月度归档
+
+#### 2026-10
+
+- [AVEE VPN](reports/2026-10/aveevpn.md)（评分 9.59，价格 ¥6.90）
+- [Andy Cloud](reports/2026-10/andygw.md)（评分 82.59，价格 ¥5）
+- [CyberGuard](reports/2026-10/cyberguard.md)（评分 74.23，价格 ¥15）
+- [Here云-稳定专线家宽](reports/2026-10/web-hereyun.md)（评分 86.78，价格 ¥25）
+- [Now加速·家宽机场](reports/2026-10/nowjiasu.md)（评分 92.24，价格 ¥15）
+- [一号cloud](reports/2026-10/y1-yihaodlu.md)（评分 81.53，价格 ¥5.60）
+- [九云](reports/2026-10/888-jiuyundl.md)（评分 83.91，价格 ¥6）
+- [云图](reports/2026-10/ccc-jichang.md)（评分 85.70，价格 ¥20）
+- [仙路湾](reports/2026-10/xianluwan.md)（评分 88.77，价格 ¥8）
+- [大象网络](reports/2026-10/elphantroute.md)（评分 92.26，价格 ¥19）
+- [山水云](reports/2026-10/shanshuiyun.md)（评分 77.12，价格 ¥9.60）
+- [杏花云](reports/2026-10/wl1-yuildavvjh.md)（价格 ¥3）
+- [极速Cloud](reports/2026-10/bktg-jsjc456789.md)（评分 89.94，价格 ¥15）
+- [枫叶Maplerelay](reports/2026-10/maplerelay.md)（评分 84.95，价格 ¥5）
+- [熊猫cloud](reports/2026-10/cl888-cailudl.md)（评分 87.18，价格 ¥4.80）
+- [秒秒云](reports/2026-10/dl2-mmy8.md)（评分 87.48，价格 ¥7.20）
+- [耶耶云-香港电讯旗下](reports/2026-10/check-yeyeyun.md)（评分 91.33，价格 ¥10）
+- [轻语机场](reports/2026-10/qingyudaohang.md)（评分 78.73，价格 ¥10）
+- [锦云](reports/2026-10/w2-whengdl.md)（评分 80.53，价格 ¥4.80）
+- [鲤云](reports/2026-10/ly888-liydl.md)（评分 87.81，价格 ¥4）
 
 #### 2026-09
 
@@ -151,35 +183,43 @@
 
 ### 按机场索引
 
-- **Andy Cloud**：[2026-09](reports/2026-09/andygw.md)
+- **AVEE VPN**：[2026-10](reports/2026-10/aveevpn.md)
+- **Andy Cloud**：[2026-10](reports/2026-10/andygw.md)、[2026-09](reports/2026-09/andygw.md)
+- **CyberGuard**：[2026-10](reports/2026-10/cyberguard.md)
+- **Here云-稳定专线家宽**：[2026-10](reports/2026-10/web-hereyun.md)
 - **Nice加速·AI专线**：[2026-08](reports/2026-08/nicejiasu-2.md)
 - **Nice加速机场**：[2026-07](reports/2026-07/nicejiasu-2.md)、[2026-06](reports/2026-06/nicejiasu-2.md)
 - **Now加速**：[2026-06](reports/2026-06/nowjiasu.md)、[2026-05](reports/2026-05/nowjiasu.md)
-- **Now加速·家宽机场**：[2026-09](reports/2026-09/nowjiasu.md)、[2026-08](reports/2026-08/nowjiasu.md)、[2026-07](reports/2026-07/nowjiasu.md)
-- **九云**：[2026-09](reports/2026-09/888-jiuyundl.md)
-- **云图**：[2026-09](reports/2026-09/ccc-jichang.md)、[2026-08](reports/2026-08/ccc-jichang.md)、[2026-07](reports/2026-07/ccc-jichang.md)
-- **仙路湾**：[2026-09](reports/2026-09/xianluwan.md)、[2026-08](reports/2026-08/xianluwan.md)、[2026-07](reports/2026-07/xianluwan.md)、[2026-06](reports/2026-06/xianluwan.md)、[2026-05](reports/2026-05/xlw.md)
+- **Now加速·家宽机场**：[2026-10](reports/2026-10/nowjiasu.md)、[2026-09](reports/2026-09/nowjiasu.md)、[2026-08](reports/2026-08/nowjiasu.md)、[2026-07](reports/2026-07/nowjiasu.md)
+- **一号cloud**：[2026-10](reports/2026-10/y1-yihaodlu.md)
+- **九云**：[2026-10](reports/2026-10/888-jiuyundl.md)、[2026-09](reports/2026-09/888-jiuyundl.md)
+- **云图**：[2026-10](reports/2026-10/ccc-jichang.md)、[2026-09](reports/2026-09/ccc-jichang.md)、[2026-08](reports/2026-08/ccc-jichang.md)、[2026-07](reports/2026-07/ccc-jichang.md)
+- **仙路湾**：[2026-10](reports/2026-10/xianluwan.md)、[2026-09](reports/2026-09/xianluwan.md)、[2026-08](reports/2026-08/xianluwan.md)、[2026-07](reports/2026-07/xianluwan.md)、[2026-06](reports/2026-06/xianluwan.md)、[2026-05](reports/2026-05/xlw.md)
 - **光速云**：[2026-06](reports/2026-06/qwerty-gsyaff.md)、[2026-05](reports/2026-05/qwerty-gsyaff.md)
 - **可达加速器**：[2026-08](reports/2026-08/1-mkd997.md)、[2026-07](reports/2026-07/1-mkd997.md)、[2026-06](reports/2026-06/1-mkd997.md)
-- **大象网络**：[2026-09](reports/2026-09/elphantroute.md)、[2026-08](reports/2026-08/elphantroute.md)、[2026-07](reports/2026-07/elphantroute.md)、[2026-06](reports/2026-06/elphantroute.md)、[2026-05](reports/2026-05/elphantroute.md)、[2026-04](reports/2026-04/elphantroute.md)
+- **大象网络**：[2026-10](reports/2026-10/elphantroute.md)、[2026-09](reports/2026-09/elphantroute.md)、[2026-08](reports/2026-08/elphantroute.md)、[2026-07](reports/2026-07/elphantroute.md)、[2026-06](reports/2026-06/elphantroute.md)、[2026-05](reports/2026-05/elphantroute.md)、[2026-04](reports/2026-04/elphantroute.md)
 - **宇宙云**：[2026-07](reports/2026-07/01-yuzoucloud.md)、[2026-06](reports/2026-06/01-yuzoucloud.md)
 - **寰宇云机场**：[2026-07](reports/2026-07/dashboard-huanyuyunvip.md)、[2026-06](reports/2026-06/dashboard-huanyuyunvip.md)
-- **山水云**：[2026-09](reports/2026-09/shanshuiyun.md)、[2026-08](reports/2026-08/shanshuiyun.md)、[2026-07](reports/2026-07/shanshuiyun.md)、[2026-06](reports/2026-06/shanshuiyun.md)、[2026-05](reports/2026-05/shanshuiyun.md)
-- **极速Cloud**：[2026-08](reports/2026-08/bktg-jsjc456789.md)
+- **山水云**：[2026-10](reports/2026-10/shanshuiyun.md)、[2026-09](reports/2026-09/shanshuiyun.md)、[2026-08](reports/2026-08/shanshuiyun.md)、[2026-07](reports/2026-07/shanshuiyun.md)、[2026-06](reports/2026-06/shanshuiyun.md)、[2026-05](reports/2026-05/shanshuiyun.md)
+- **杏花云**：[2026-10](reports/2026-10/wl1-yuildavvjh.md)
+- **极速Cloud**：[2026-10](reports/2026-10/bktg-jsjc456789.md)、[2026-08](reports/2026-08/bktg-jsjc456789.md)
 - **极速云机场**：[2026-09](reports/2026-09/sub-jsysubtoken.md)、[2026-08](reports/2026-08/sub-jsysubtoken.md)、[2026-07](reports/2026-07/sub-jsysubtoken.md)、[2026-06](reports/2026-06/sub-jsysubtoken.md)、[2026-05](reports/2026-05/jsysubtoken.md)
 - **极速机场**：[2026-07](reports/2026-07/bktg-jsjc456789.md)
-- **枫叶Maplerelay**：[2026-09](reports/2026-09/maplerelay.md)
+- **枫叶Maplerelay**：[2026-10](reports/2026-10/maplerelay.md)、[2026-09](reports/2026-09/maplerelay.md)
+- **熊猫cloud**：[2026-10](reports/2026-10/cl888-cailudl.md)
 - **瞬云**：[2026-06](reports/2026-06/ccc-jichang.md)、[2026-05](reports/2026-05/ccc-jichang.md)
-- **秒秒云**：[2026-08](reports/2026-08/dl2-mmy8.md)、[2026-07](reports/2026-07/dl2-mmy8.md)、[2026-06](reports/2026-06/dl2-mmy8.md)
+- **秒秒云**：[2026-10](reports/2026-10/dl2-mmy8.md)、[2026-08](reports/2026-08/dl2-mmy8.md)、[2026-07](reports/2026-07/dl2-mmy8.md)、[2026-06](reports/2026-06/dl2-mmy8.md)
 - **稳连云**：[2026-08](reports/2026-08/wl1-yuildavvjh.md)、[2026-07](reports/2026-07/wl1-yuildavvjh.md)、[2026-06](reports/2026-06/wl1-yuildavvjh.md)
 - **耶耶云**：[2026-09](reports/2026-09/check-yeyeyun.md)、[2026-08](reports/2026-08/check-yeyeyun.md)
+- **耶耶云-香港电讯旗下**：[2026-10](reports/2026-10/check-yeyeyun.md)
 - **财路云**：[2026-08](reports/2026-08/cl888-cailudl.md)、[2026-07](reports/2026-07/cl888-cailudl.md)
-- **锦云**：[2026-08](reports/2026-08/w2-whengdl.md)、[2026-07](reports/2026-07/w2-whengdl.md)、[2026-06](reports/2026-06/w2-whengdl.md)
+- **轻语机场**：[2026-10](reports/2026-10/qingyudaohang.md)
+- **锦云**：[2026-10](reports/2026-10/w2-whengdl.md)、[2026-08](reports/2026-08/w2-whengdl.md)、[2026-07](reports/2026-07/w2-whengdl.md)、[2026-06](reports/2026-06/w2-whengdl.md)
 - **飞猫云**：[2026-06](reports/2026-06/flycat-flycatvipaff.md)、[2026-05](reports/2026-05/flycat-flycatvipaff.md)
 - **飞鱼机场**：[2026-09](reports/2026-09/qq-myyuyu.md)
-- **鲤云**：[2026-08](reports/2026-08/ly888-liydl.md)
+- **鲤云**：[2026-10](reports/2026-10/ly888-liydl.md)、[2026-08](reports/2026-08/ly888-liydl.md)
 
-_README 索引更新时间：2026-10-07 21:06:16 +0800_
+_README 索引更新时间：2026-11-07 20:35:11 +0800_
 <!-- REPORT_INDEX_END -->
 
 ## 免责声明
